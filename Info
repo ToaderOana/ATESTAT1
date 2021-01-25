@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title><marguee width="280"><h1>Elemente de formular</h1></marguee></title>
+</head>
+    
+<body>
+    <center>
+        <form action="executa.php" method="post">
+            <table>
+                <tr>
+                    <td>User name</td>
+                    <td><input type="text" name="user"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="passw"></td>
+                </tr>
+                <tr>
+                    <td>Ai peste 18 ani...</td>
+                    <td><input type="checkbox" name="major" checked></td>
+                </tr>
+                <tr>
+                    <td>Locatie in</td>
+                    <td><input type="radio" nume="loc" value="urban">urban<br>
+                        <input type="radio" nume="loc" value="rural">rural</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" name="Trimite" value="Trimite"></td>
+                </tr>
+            </table>
+        </form>
+    
+    </center>
+</body>
+</html>
